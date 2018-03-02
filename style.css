@@ -1,0 +1,60 @@
+html {
+    background-color: #001C3E
+}
+
+.container {
+    margin-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    height: 50%;
+    width: 100%;
+    background-color: #001C3E;
+    overflow: hidden;
+}
+.rosieBack {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 600px;
+    height: 100%; */
+    height: auto;
+    background: url(rosiespeech.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100%;
+    width: 100%;
+    left: 27%;
+}
+
+.container .div1 img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 30%;
+    width: 30%;
+    z-index: 100;
+}
+
+.div2 {
+    position: relative;
+    background-color: #b22222;
+    z-index: -1;
+}
+
+.div2 h2 {
+    text-align: center;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 75px;
+    color: white;
+}
+
+.div2 p {
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
