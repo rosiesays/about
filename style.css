@@ -58,3 +58,8 @@ html {
     padding-left: 20px;
     padding-right: 20px;
 }
+.warning {
+    border-bottom: 2px;
+    border-bottom-style: dashed;
+    border-bottom-color: #3f4d9c;
+}
