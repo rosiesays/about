@@ -58,3 +58,45 @@ html {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.photos img{
+    width:100%;
+    float:left;
+    display: inline-block;
+    position: relative;
+    margin-bottom:15px;
+}
+
+.photos .alli{
+    color:white;
+    width: 25%;
+    text-align:center;
+    display: inline-block;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top:10px;
+}
+
+.photos .catherine{
+    color:white;
+    width: 25%;
+    text-align:center;
+    display: inline-block;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top:10px;
+}
+
+.photos .gauri{
+    color:white;
+    width: 25%;
+    text-align:center;
+    display: inline-block;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top:10px;
+}
+
+.photos p{
+    margin-top: 10px;
+}
