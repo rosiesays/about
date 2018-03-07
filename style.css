@@ -1,5 +1,6 @@
 html {
-    background-color: #001C3E
+    background-color: #001C3E;
+    
 }
 
 .container {
@@ -63,3 +64,37 @@ html {
     border-bottom-style: dashed;
     border-bottom-color: #3f4d9c;
 }
+
+.textDiv {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+    min-height: 300px;
+    height: 50%;
+    width: 800px;
+    display: table; text-align: center;
+    background-color: white;
+}
+
+.btns {
+    display: table-cell; vertical-align: bottom;
+    z-index:100;
+}
+
+.btn {
+    background-color: #b22222; /* Green */
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn:hover{
+    background-color: #720000;
+    cursor: pointer;
+  }
+
