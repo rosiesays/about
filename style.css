@@ -1,7 +1,14 @@
 html {
-    background-color: #001C3E
+    background-color: #001C3E;
+    
 }
-
+#editing{
+    height:400px;
+    background-color: white;
+    width: 800px;
+    margin-left:25%;
+    font-size: 14px;
+}
 .container {
     margin-top: 0;
     display: block;
@@ -12,6 +19,10 @@ html {
     width: 100%;
     background-color: #001C3E;
     overflow: hidden;
+}
+h1{
+    color:white;
+    text-align: center;
 }
 .rosieBack {
     position: relative;
@@ -68,6 +79,34 @@ html {
     padding-right: 20px;
     padding-bottom: 250px;
 }
+.warning {
+    border-bottom: 2px;
+    border-bottom-style: dashed;
+    border-bottom-color: #3f4d9c;
+}
+
+.btns {
+    margin-left:30%;
+}
+
+.btn {
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color: #b22222;
+    color: white;
+    padding: 10px;
+    margin-left:5px;
+    margin-right:140px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn:hover{
+    background-color: #720000;
+    cursor: pointer;
+  } 
 
 .photos {
     background-color: #7F0000;
