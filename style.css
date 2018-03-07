@@ -18,9 +18,7 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* width: 600px;
-    height: 100%; */
-    height: auto;
+    height: 400px;
     background: url(rosiespeech.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -39,7 +37,6 @@ html {
 }
 
 .div2 {
-    position: relative;
     background-color: #7F0000;
     z-index: -1;
     padding-bottom: 5px;
@@ -54,9 +51,18 @@ html {
     margin-top: 10px;
 }
 
+.div2 a{
+    color: white;
+}
+
+.div2 a:hover{
+    color: gray;
+}
+
 .div2 p {
     color: white;
     text-align: center;
+    font-size: 14px;
     font-family: 'Open Sans', sans-serif;
     padding-left: 20px;
     padding-right: 20px;
@@ -114,8 +120,9 @@ html {
 
 .photos p{
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 14px;
     clear: left;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .rightAlign {
@@ -150,4 +157,8 @@ html {
     position:absolute;
     top:0;
     right:0;
+}
+
+.navButton:hover{
+    background-color:#215f89;
 }
